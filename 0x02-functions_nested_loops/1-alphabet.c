@@ -1,17 +1,18 @@
 #include "main.h"
 /**
  * print_alphabet - alphabet in lower case
- * Return: Always 0.
+ * Return:void
  */
+ 
 void print_alphabet(void)
 {
-	char i;
-
-	i = 'a';
+	char c;
+	
+	c = 'a';
 	while
-		(i <= 'z') {
-			_putchar(i);
-			i++;
+		(c <= 'z'){
+			_putchar(c);
+			c++;
 		}
 	_putchar('\n');
 }
